@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Castle v.01</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="container">
+      <a href="index.html">
+        <img
+          src="images/crown.png"
+          alt="logo"
+        />
+      </a>
+      <div class="btn">
+        <a href="signup.html"
+          ><button>Sign Up</button></a
+        >
+      </div>
+    </header>
+    <section id="hero" class="container">
+      <div class="hero-contents">
+        <div class="hero-text">
+          <p class="text">
+            Welcome to The <span class="highlight-yellow">Castle</span>
+          </p>
+          <h1 class="title">
+            <span class="highlight-yellow">Royalty</span> for the Community
+          </h1>
+          <div>
+            <div class="hero-btn">
+              <a href="signup.html"
+                ><button class="btn btn-1">Get Listed</button></a
+              >
+              <a
+                href="explore-nfts.html"
+                ><button class="btn btn-2">Explore</button></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img
+            src="images/crown.gif"
+            alt="crown"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="banner" class="container">
+      <div class="banner-contents">
+        <div class="banner-title title">
+          <h6>Choose your <span class="highlight-yellow">Suit</span></h6>
+        </div>
+
+        <div class="banner-image-box">
+          <div class="image-box box-1">
+            <a href="explore-nfts.html">
+              <img
+                src="images/banner-king.png"
+                alt="nfts
+              "
+              />
+            </a>
+          </div>
+          
+          <div class="image-box box-2">
+            <a href="explore-nfts.html">
+              <img
+                src="images/banner-queen.png"
+                alt="nfts"
+              />
+            </a>
+          </div>
+          <div class="image-box box-3">
+            <a href="explore-nfts.html">
+              <img
+                src="images/banner-jack.png"
+                alt="nfts"
+              />
+            </a>
+          </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- <div class="castle-background">
+        <img
+          src="images/Castles-banner1.png"
+          alt=""
+        />
+      </div> -->
+    </section>
+
+    <section class="latest-section container">
+      <div class="latest-title title">
+        <h6>Latest <span class="highlight-yellow">Release</span></h6>
+      </div>
+      <div id="nft-container" class="latest-nfts"></div>
+    </section>
+
+    <section id="about" class="container ">
+      <div class="about-contents">
+        <div class="about-title title">
+          <h5>About <span class="highlight-yellow">Castle</span></h5>
+        </div>
+        <div>
+          <div class="crown-gif">
+            <img
+              src="images/crown.gif"
+              alt="crown"
+            />
+          </div>
+          <p class="about-text text">
+            <span class="highlight-yellow">Castle</span> is a collection of
+            crowns designed by Ian Broqueza and minted as NFTs. They are
+            inspired from various suits of card, from King, Queen, and Jack. Each has different races that distinguishes its
+            uniqueness. <br> Grab your crown now!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="faq" class="container">
+      <div class="faq-contents">
+        <div class="faq-title title">
+          <h5>Details and <span class="highlight-yellow">FAQ</span></h5>
+        </div>
+        <div id="faq-content" class="faq-text"></div>
+      </div>
+    </section> -->
+
+    <section id="faq" class="faq container">
+      <h1 class="title">
+        FAQ Details and <span class="highlight-yellow">FAQ</span>
+      </h1>
+
+      <div class="questions-container"></div>
+    </section>
+
+    <footer class="container">
+      <h4>Castle</h4>
+      <div class="socials">
+        <a href="#"><ion-icon name="logo-twitter"></ion-icon> @CastleNFTs</a>
+        <a href="#"><ion-icon name="logo-instagram"></ion-icon> @CastleNFTs</a>
+        <a href="#"><ion-icon name="logo-discord"></ion-icon> @CastleNFTs</a>
+      </div>
+      <div class="copyright">
+        <p>© 2022</p>
+        <div class="policy">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms</a>
+        </div>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>

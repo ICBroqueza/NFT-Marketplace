@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Castle v.01 - Explore</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="container">
+      <a href="index.html">
+        <img
+          src="images/crown.png"
+          alt="logo"
+        />
+      </a>
+
+      <div class="btn">
+        <button>Sign Up</button>
+      </div>
+    </header>
+
+    <!-- Page Title -->
+    <section class="explore container">
+      <div class="crown-background">
+        <img
+          src="images/crowns.png"
+          alt="background-img"
+        />
+      </div>
+      <div class="explore-contents">
+        <div class="explore-top">
+          <div class="explore-title title">
+            <h5>Explore</h5>
+          </div>
+          <div class="explore-title-text text">
+            <p>150 <span class="highlight-yellow">Crowns</span></p>
+            <span>|</span>
+            <p>101 <span class="highlight-yellow">Owners</span></p>
+            <span>|</span>
+            <p>900 <span class="highlight-yellow">Floor</span></p>
+          </div>
+          <div class="explore-navs text">
+            <a
+              href="explore-nfts.html"
+              class="explore-nav explore-nav--active"
+              >NFTs</a
+            >
+            <a
+              href="explore-activity.html"
+              class="explore-nav"
+              >Activity</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="explore-nft--container container">
+          <div class="explore-content container">
+      <div id="search-container">
+        <div class="search-bar">
+          <button id="search">Search</button>
+          <input
+            type="search"
+            id="search-input"
+            placeholder="Search By Name or ID..."
+          />
+        </div>
+        <div id="buttons-filter" class="filters">
+          <button class="filter-value active" onclick="filterProduct('all')">
+            All
+          </button>
+          <button class="filter-value" onclick="filterProduct('Kings')">
+            Kings
+          </button>
+          <button class="filter-value" onclick="filterProduct('Queens')">
+            Queens
+          </button>
+          <button class="filter-value" onclick="filterProduct('Jacks')">
+            Jacks
+          </button>
+        </div>
+      </div>
+
+      <div id="nft-container"></div>
+    </section>
+    <footer class="container">
+      <h4>Castle</h4>
+      <div class="socials">
+        <a href="#"><ion-icon name="logo-twitter"></ion-icon> @CastleNFTs</a>
+        <a href="#"><ion-icon name="logo-instagram"></ion-icon> @CastleNFTs</a>
+        <a href="#"><ion-icon name="logo-discord"></ion-icon> @CastleNFTs</a>
+      </div>
+      <div class="copyright">
+        <p>© 2022</p>
+        <div class="policy">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms</a>
+        </div>
+      </div>
+    </footer>
+    <template class="questions-container"> </template>
+    <script src="main.js"></script>
+  </body>
+</html>
